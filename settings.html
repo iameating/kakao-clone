@@ -5,6 +5,7 @@
   <script src="https://kit.fontawesome.com/fbb86d806d.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="C:\Users\last2\Desktop\kakao-clone ver2\kakao-clone-v2\css\styles.css">
   <title>Settings | Kakao Clone</title>
 </head>
 
@@ -23,8 +24,8 @@
   </div>
   <header class="header">
     <div class="header__header-column">
-      <a href="javascript:history.back();">
-        <i class="fas fa-arrow-left fa-2x"></i>
+      <a href="javascript:history.back();" class="header__back-btn">
+        <i class="fas fa-arrow-left"></i>
       </a>
       <h1 class="header__title">Settings</h1>
     </div>
@@ -57,7 +58,32 @@
         </li>
       </ul>
     </section>
+    <section class="settings__sections">
+      <ul class="settings__list">
+        <li class="settings__setting">
+          <span class="setting__icon">
+            <i class="fas fa-lock"></i>
+          </span>
+          <span class="setting__title">Privacy</span>
+        </li>
+        <li class="settings__setting">
+          <span class="setting__icon">
+            <i class="far fa-bell"></i>
+          </span>
+          <span class="setting__title">Notifications</span>
+        </li>
+        <li class="settings__setting">
+          <span class="setting__icon">
+            <i class="far fa-user"></i>
+          </span>
+          <span class="setting__title">Friends</span>
+        </li>
+      </ul>
+    </section>
   </main>
+  <div class="bigScreen">
+    <span class="bigscreen__text">Please make your screen small!</span>
+  </div>
 </body>
 
 </html>
